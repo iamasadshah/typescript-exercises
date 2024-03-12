@@ -1,1 +1,4 @@
-/node_modules
+# Ignores compiled TypeScript files
+**/*.map
+**/*.js
+**/.vscode
