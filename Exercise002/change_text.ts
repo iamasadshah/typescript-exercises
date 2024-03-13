@@ -1,5 +1,5 @@
 
-let userName = prompt("What is Your name?")
+let userName = prompt("What's Your name?")
 
 let lowerCase = userName?.toLowerCase();
 let upperCase = userName?.toUpperCase();
