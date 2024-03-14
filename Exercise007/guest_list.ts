@@ -9,6 +9,7 @@ console.log(`${guestList[2]} ${message}`)
 for (let i=0; i<guestList.length; i++){
     console.log(`${guestList[i]} ${message}`)
 }
+console.log(`\n \n \n`)
 
 // Changing List
 let absentGuest:string = "Syed"
@@ -20,9 +21,9 @@ for (let i=0; i<guestList.length; i++){
 }
 
 console.log(`${absentGuest} is not coming.`)
+console.log(`\n \n \n`)
 
-
-//Shrinking Guest List 
+//More Guest
 console.log("Good News! We found big table so we can invite three more people")
 
 guestList.unshift('Zia Khan')
@@ -32,6 +33,18 @@ guestList.push("Sajid Khan")
 for (let i=0; i<guestList.length; i++){
     console.log(`${guestList[i]} ${message}`)
 }
+console.log(`\n \n \n`)
 
+// Shrinking Guest List
+console.log("Sorry! We can Invite only Two Guest");
 
+while(guestList.length > 2){
+    let removeGuest = guestList.pop()
+    console.log(`Sorry Mr, ${removeGuest} You are not invited for dinner.`)
+}
 
+console.log(`\n \n \n`)
+let message2 = "You are still invited to dinner"
+for (let i=0; i<guestList.length; i++){
+    console.log(`${guestList[i]} ${message2}`)
+}
