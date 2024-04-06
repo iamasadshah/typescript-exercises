@@ -1,1 +1,0 @@
-let placesList = ["Rome", "Tokyo", "Maldives","Sydney", "Bali"]
